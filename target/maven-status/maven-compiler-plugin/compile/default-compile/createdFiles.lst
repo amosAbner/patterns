@@ -1,0 +1,8 @@
+patterns\abstractt\PatternAbstractApplication.class
+patterns\factory\service\FactoryService.class
+patterns\factory\model\Heroi.class
+patterns\factory\factory\PersonagemFactory.class
+patterns\factory\model\Personagem.class
+patterns\factory\model\Vilao.class
+patterns\factory\factory\PersonagemFactory$TipoPersonagem.class
+patterns\factory\PatternFactoryApplication.class
