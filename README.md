@@ -1,2 +1,43 @@
 # patterns
 Estudo sobre padrões de projeto
+
+## 📚 Pacotes Disponíveis
+
+### 🎯 **factory**
+Implementação completa do padrão **Factory Method** com tema de personagens (Heróis e Vilões).
+- Personagens com atributos comuns (Nome, Habilidade, Força, Inteligência)
+- Factory para criação de diferentes tipos de personagens
+- Exemplos práticos de uso
+
+### 🔧 **abstractFactory**
+Implementação do padrão **Abstract Factory** com famílias de computadores.
+- Famílias: Alto Desempenho e Básica
+- Produtos: Desktop e Notebook
+- Factories para criação de famílias completas
+
+### 🔸 **singleton**
+Implementações dos padrões **Singleton** e **Monostate** com tema de Logger.
+- 3 implementações diferentes do Singleton (Eager, Lazy, Enum)
+- Implementação do Monostate como alternativa
+- Comparação prática entre os padrões
+
+## 🚀 Como Executar
+
+```bash
+# Factory Pattern
+java -cp target/classes patterns.factory.PatternFactoryApplication
+
+# Abstract Factory Pattern
+java -cp target/classes patterns.abstractFactory.PatternAbstractFactoryApplication
+
+# Singleton & Monostate Patterns
+java -cp target/classes patterns.singleton.PatternSingletonApplication
+```
+
+## 📖 Sobre o Projeto
+
+Este projeto contém implementações didáticas e práticas de diferentes padrões de projeto em Java, com foco em:
+- Exemplos simples e compreensíveis
+- Código bem documentado
+- Estrutura organizada
+- Comparações entre padrões similares
