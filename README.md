@@ -21,6 +21,13 @@ Implementações dos padrões **Singleton** e **Monostate** com tema de Logger.
 - Implementação do Monostate como alternativa
 - Comparação prática entre os padrões
 
+### 🏗️ **builder**
+Implementação do padrão **Builder** com construção de lanches.
+- Builder fluente para lanches personalizados
+- Builders específicos para tipos de hambúrguer
+- Diretor opcional para construção automatizada
+- Exemplos de customização avançada
+
 ## 🚀 Como Executar
 
 ```bash
@@ -32,6 +39,9 @@ java -cp target/classes patterns.abstractFactory.PatternAbstractFactoryApplicati
 
 # Singleton & Monostate Patterns
 java -cp target/classes patterns.singleton.PatternSingletonApplication
+
+# Builder Pattern
+java -cp target/classes patterns.builder.PatternBuilderApplication
 ```
 
 ## 📖 Sobre o Projeto
