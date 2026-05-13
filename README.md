@@ -28,6 +28,13 @@ Implementação do padrão **Builder** com construção de lanches.
 - Diretor opcional para construção automatizada
 - Exemplos de customização avançada
 
+### 🧬 **prototype**
+Implementação do padrão **Prototype** com clonagem de objetos.
+- Shallow Copy (cópia superficial) vs Deep Copy (cópia profunda)
+- Clonagem de objetos complexos (Pessoa e Endereco)
+- Combinação com padrão Builder
+- Registro centralizado de protótipos
+
 ## 🚀 Como Executar
 
 ```bash
@@ -42,6 +49,9 @@ java -cp target/classes patterns.singleton.PatternSingletonApplication
 
 # Builder Pattern
 java -cp target/classes patterns.builder.PatternBuilderApplication
+
+# Prototype Pattern
+java -cp target/classes patterns.prototype.PatternPrototypeApplication
 ```
 
 ## 📖 Sobre o Projeto
