@@ -9,8 +9,8 @@ import lombok.Getter;
 @Getter
 public class Desktop extends Computador {
 
-    private String potenciaFonte;
-    private String tamanhoMonitor;
+    private final String potenciaFonte;
+    private final String tamanhoMonitor;
 
     public Desktop(String id, String processador, String memoria, String armazenamento,
                    String potenciaFonte, String tamanhoMonitor) {

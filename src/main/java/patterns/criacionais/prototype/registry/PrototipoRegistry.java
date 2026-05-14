@@ -1,4 +1,4 @@
-package patterns.prototype.registry;
+package patterns.criacionais.prototype.registry;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -9,7 +9,7 @@ import java.util.Map;
  */
 public class PrototipoRegistry {
 
-    private Map<String, Object> prototipos = new HashMap<>();
+    private final Map<String, Object> prototipos = new HashMap<>();
 
     /**
      * Registra um protótipo com uma chave.

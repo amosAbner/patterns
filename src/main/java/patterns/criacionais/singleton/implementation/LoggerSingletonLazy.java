@@ -11,7 +11,7 @@ public class LoggerSingletonLazy implements Logger {
     // Instância única - volatile para thread safety
     private static volatile LoggerSingletonLazy instance;
 
-    private StringBuilder logs;
+    private final StringBuilder logs;
 
     // Construtor privado
     private LoggerSingletonLazy() {

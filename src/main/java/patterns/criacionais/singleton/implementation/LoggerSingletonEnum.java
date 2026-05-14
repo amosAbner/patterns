@@ -10,7 +10,7 @@ public enum LoggerSingletonEnum implements Logger {
 
     INSTANCE; // Instância única
 
-    private StringBuilder logs;
+    private final StringBuilder logs;
 
     // Construtor do enum (chamado automaticamente)
     LoggerSingletonEnum() {

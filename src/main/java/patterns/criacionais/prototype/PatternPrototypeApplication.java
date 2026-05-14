@@ -1,7 +1,7 @@
-package patterns.prototype;
+package patterns.criacionais.prototype;
 
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import patterns.prototype.service.PrototypeService;
+import patterns.criacionais.prototype.service.PrototypeService;
 
 @SpringBootApplication
 public class PatternPrototypeApplication {

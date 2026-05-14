@@ -1,8 +1,8 @@
-package patterns.prototype.service;
+package patterns.criacionais.prototype.service;
 
-import patterns.prototype.model.Endereco;
-import patterns.prototype.model.Pessoa;
-import patterns.prototype.model.PessoaDeepClone;
+import patterns.criacionais.prototype.model.Endereco;
+import patterns.criacionais.prototype.model.Pessoa;
+import patterns.criacionais.prototype.model.PessoaDeepClone;
 import patterns.prototype.registry.PrototipoRegistry;
 
 /**

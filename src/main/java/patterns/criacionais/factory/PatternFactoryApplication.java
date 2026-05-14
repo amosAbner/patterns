@@ -1,6 +1,5 @@
 package patterns.criacionais.factory;
 
-import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import patterns.criacionais.factory.service.FactoryService;
 

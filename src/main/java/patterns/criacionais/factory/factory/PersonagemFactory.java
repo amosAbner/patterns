@@ -6,7 +6,7 @@ import patterns.criacionais.factory.model.Vilao;
 
 /**
  * Classe Factory - Responsável por criar instâncias de Personagens.
- *
+ * <p>
  * O padrão Factory encapsula a lógica de criação de objetos,
  * permitindo que o código cliente trabalhe com a interface abstrata
  * sem precisar conhecer as classes concretas.
@@ -34,14 +34,11 @@ public class PersonagemFactory {
      */
     public static Personagem criarPersonagem(TipoPersonagem tipo, String nome, String habilidade,
                                             int forca, int inteligencia) {
-        switch (tipo) {
-            case HEROI:
-                return new Heroi(nome, habilidade, forca, inteligencia);
-            case VILAO:
-                return new Vilao(nome, habilidade, forca, inteligencia);
-            default:
-                throw new IllegalArgumentException("Tipo de personagem desconhecido: " + tipo);
-        }
+        return switch (tipo) {
+            case HEROI -> new Heroi(nome, habilidade, forca, inteligencia);
+            case VILAO -> new Vilao(nome, habilidade, forca, inteligencia);
+            default -> throw new IllegalArgumentException("Tipo de personagem desconhecido: " + tipo);
+        };
     }
 
     /**

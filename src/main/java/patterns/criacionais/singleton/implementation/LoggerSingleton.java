@@ -16,7 +16,7 @@ public class LoggerSingleton implements Logger {
     @Getter
     private static final LoggerSingleton instance = new LoggerSingleton();
 
-    private StringBuilder logs;
+    private final StringBuilder logs;
 
     // Construtor privado para impedir instanciação externa
     private LoggerSingleton() {

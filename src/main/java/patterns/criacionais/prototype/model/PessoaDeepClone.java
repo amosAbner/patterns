@@ -1,4 +1,4 @@
-package patterns.prototype.model;
+package patterns.criacionais.prototype.model;
 
 import lombok.Builder;
 import lombok.Data;

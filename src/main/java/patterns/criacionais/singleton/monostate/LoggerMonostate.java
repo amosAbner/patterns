@@ -10,7 +10,7 @@ import patterns.criacionais.singleton.model.Logger;
 public class LoggerMonostate implements Logger {
 
     // Estado compartilhado por todas as instâncias (static)
-    private static StringBuilder logs = new StringBuilder();
+    private static final StringBuilder logs = new StringBuilder();
 
     // Inicialização do estado compartilhado
     static {

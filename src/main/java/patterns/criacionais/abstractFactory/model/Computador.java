@@ -10,11 +10,11 @@ import lombok.Getter;
 public abstract class Computador {
 
     // Getters
-    private String id;
-    private String tipo;
-    private String processador;
-    private String memoria;
-    private String armazenamento;
+    private final String id;
+    private final String tipo;
+    private final String processador;
+    private final String memoria;
+    private final String armazenamento;
 
     public Computador(String id, String tipo, String processador, String memoria, String armazenamento) {
         this.id = id;

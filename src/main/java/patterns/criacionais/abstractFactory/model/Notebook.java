@@ -9,8 +9,8 @@ import lombok.Getter;
 @Getter
 public class Notebook extends Computador {
 
-    private String bateria;
-    private double peso;
+    private final String bateria;
+    private final double peso;
 
     public Notebook(String id, String processador, String memoria, String armazenamento,
                     String bateria, double peso) {
