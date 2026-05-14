@@ -3,7 +3,7 @@ package patterns.criacionais.prototype.service;
 import patterns.criacionais.prototype.model.Endereco;
 import patterns.criacionais.prototype.model.Pessoa;
 import patterns.criacionais.prototype.model.PessoaDeepClone;
-import patterns.prototype.registry.PrototipoRegistry;
+import patterns.criacionais.prototype.registry.PrototipoRegistry;
 
 /**
  * Serviço que demonstra o uso do padrão Prototype.
