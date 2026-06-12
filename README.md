@@ -3,56 +3,90 @@ Estudo sobre padrões de projeto
 
 ## 📚 Pacotes Disponíveis
 
-### 🎯 **factory**
+### 🏗️ Padrões Criacionais
+
+Neste pacote estão as implementações de padrões focados na criação de objetos, abstraindo a lógica de instanciação.
+
+#### 🎯 **[factory](file:///c:/Users/absouza/Documents/workspace/patterns/src/main/java/patterns/criacionais/factory)** (Factory Method)
 Implementação completa do padrão **Factory Method** com tema de personagens (Heróis e Vilões).
 - Personagens com atributos comuns (Nome, Habilidade, Força, Inteligência)
 - Factory para criação de diferentes tipos de personagens
 - Exemplos práticos de uso
 
-### 🔧 **abstractFactory**
+#### 🔧 **[abstractFactory](file:///c:/Users/absouza/Documents/workspace/patterns/src/main/java/patterns/criacionais/abstractFactory)**
 Implementação do padrão **Abstract Factory** com famílias de computadores.
 - Famílias: Alto Desempenho e Básica
 - Produtos: Desktop e Notebook
 - Factories para criação de famílias completas
 
-### 🔸 **singleton**
+#### 🔸 **[singleton](file:///c:/Users/absouza/Documents/workspace/patterns/src/main/java/patterns/criacionais/singleton)** (e Monostate)
 Implementações dos padrões **Singleton** e **Monostate** com tema de Logger.
 - 3 implementações diferentes do Singleton (Eager, Lazy, Enum)
 - Implementação do Monostate como alternativa
 - Comparação prática entre os padrões
 
-### 🏗️ **builder**
+#### 🏗️ **[builder](file:///c:/Users/absouza/Documents/workspace/patterns/src/main/java/patterns/criacionais/builder)**
 Implementação do padrão **Builder** com construção de lanches.
 - Builder fluente para lanches personalizados
 - Builders específicos para tipos de hambúrguer
 - Diretor opcional para construção automatizada
 - Exemplos de customização avançada
 
-### 🧬 **prototype**
+#### 🧬 **[prototype](file:///c:/Users/absouza/Documents/workspace/patterns/src/main/java/patterns/criacionais/prototype)**
 Implementação do padrão **Prototype** com clonagem de objetos.
 - Shallow Copy (cópia superficial) vs Deep Copy (cópia profunda)
 - Clonagem de objetos complexos (Pessoa e Endereco)
 - Combinação com padrão Builder
 - Registro centralizado de protótipos
 
-## 🚀 Como Executar
+---
 
-```bash
-# Factory Pattern
-java -cp target/classes patterns.factory.PatternFactoryApplication
+### 🧩 Padrões Estruturais
 
-# Abstract Factory Pattern
-java -cp target/classes patterns.abstractFactory.PatternAbstractFactoryApplication
+Neste pacote estão as implementações de padrões focados na composição de classes e objetos para formar estruturas maiores e flexíveis.
 
-# Singleton & Monostate Patterns
-java -cp target/classes patterns.singleton.PatternSingletonApplication
+#### 🔌 **[adapter](file:///c:/Users/absouza/Documents/workspace/patterns/src/main/java/patterns/estruturais/adapter)**
+Implementação do padrão **Adapter** utilizando integração de bancos de dados.
+- Interface padronizada para operações de banco de dados
+- Adaptadores para MySQL e MongoDB legados
+- Integração transparente de sistemas incompatíveis
 
-# Builder Pattern
-java -cp target/classes patterns.builder.PatternBuilderApplication
+#### 🌉 **[bridge](file:///c:/Users/absouza/Documents/workspace/patterns/src/main/java/patterns/estruturais/bridge)**
+Implementação do padrão **Bridge** com controles remotos e aparelhos.
+- Divisão clara entre Abstração (Controle) e Implementação (Aparelho)
+- Controles básicos e avançados gerenciando TV e Rádio
+- Evolução independente das duas hierarquias
 
-# Prototype Pattern
-java -cp target/classes patterns.prototype.PatternPrototypeApplication
-```
+#### 🌿 **[composite](file:///c:/Users/absouza/Documents/workspace/patterns/src/main/java/patterns/estruturais/composite)**
+Implementação do padrão **Composite** com sistema de arquivos.
+- Estrutura em árvore representando Arquivos (folha) e Pastas (composto)
+- Tratamento uniforme para cálculo de tamanhos de forma recursiva
+- Polimorfismo e transparência para o cliente
+
+#### 🎀 **[decorator](file:///c:/Users/absouza/Documents/workspace/patterns/src/main/java/patterns/estruturais/decorator)**
+Implementação do padrão **Decorator** com montagem de cafés em cafeteria.
+- Bebidas base (Café Simples, Espresso) decoradas dinamicamente
+- Adição flexível de acompanhamentos (Leite, Açúcar, Chantilly)
+- Composição acumulativa de custos e descrições sem herança múltipla
+
+#### 🏛️ **[facade](file:///c:/Users/absouza/Documents/workspace/patterns/src/main/java/patterns/estruturais/facade)**
+Implementação do padrão **Facade** com controle de Home Theater.
+- Interface simplificada de alto nível para interagir com subsistema complexo
+- Coordenação de luzes, tela, projetor, amplificador e player
+- Métodos práticos para iniciar e encerrar sessões de cinema
+
+#### 🪶 **[flyweight](file:///c:/Users/absouza/Documents/workspace/patterns/src/main/java/patterns/estruturais/flyweight)**
+Implementação do padrão **Flyweight** com floresta digital.
+- Compartilhamento de dados pesados e imutáveis (cor, textura) em cache
+- Estado intrínseco (espécie) separado do estado extrínseco (coordenadas x, y)
+- Renderização altamente otimizada em memória para milhares de árvores
+
+#### 🛡️ **[proxy](file:///c:/Users/absouza/Documents/workspace/patterns/src/main/java/patterns/estruturais/proxy)**
+Implementação do padrão **Proxy** com cache de vídeos do YouTube.
+- Controle de acesso, auditoria e interceptação de chamadas
+- Cache inteligente local para evitar requisições de rede lentas
+- Inicialização preguiçosa (lazy load) do serviço real sob demanda
+
 
 ## 📖 Sobre o Projeto
 
