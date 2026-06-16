@@ -105,6 +105,12 @@ Implementação do padrão **Memento** com mecanismo de desfazer (Undo) em edito
 - Histórico sequencial controlado por pilha (Caretaker)
 - Restauração de estados anteriores sem violação de encapsulamento
 
+#### 🕹️ **[command](file:///c:/Users/absouza/Documents/workspace/patterns/src/main/java/patterns/comportamentais/command)**
+Implementação do padrão **Command** com sistema de automação residencial (Smart Home).
+- Encapsulamento de requisições de controle (Luz, Ar Condicionado) em objetos Command
+- Desacoplamento entre os botões disparadores (Invoker) e os aparelhos finais (Receiver)
+- Suporte a múltiplos comandos sequenciais e funcionalidade de desfazer (Undo)
+
 
 ## 📖 Sobre o Projeto
 
