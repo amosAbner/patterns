@@ -99,6 +99,12 @@ Implementação do padrão **Chain of Responsibility** com fluxo de atendimento 
 - Processamento condicional e delegação automática para o próximo nível
 - Tratamento uniforme e tratamento de falhas ao fim da cadeia de atendimento
 
+#### 💾 **[memento](file:///c:/Users/absouza/Documents/workspace/patterns/src/main/java/patterns/comportamentais/memento)**
+Implementação do padrão **Memento** com mecanismo de desfazer (Undo) em editor de texto.
+- Salvamento de snapshots do estado interno (texto) de forma encapsulada e imutável
+- Histórico sequencial controlado por pilha (Caretaker)
+- Restauração de estados anteriores sem violação de encapsulamento
+
 
 ## 📖 Sobre o Projeto
 
