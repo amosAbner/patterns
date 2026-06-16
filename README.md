@@ -87,6 +87,18 @@ Implementação do padrão **Proxy** com cache de vídeos do YouTube.
 - Cache inteligente local para evitar requisições de rede lentas
 - Inicialização preguiçosa (lazy load) do serviço real sob demanda
 
+---
+
+### 🚦 Padrões Comportamentais
+
+Neste pacote estão as implementações de padrões focados nos algoritmos e na atribuição de responsabilidades entre os objetos.
+
+#### ⛓️ **[chainOfResponsibility](file:///c:/Users/absouza/Documents/workspace/patterns/src/main/java/patterns/comportamentais/chainOfResponsibility)**
+Implementação do padrão **Chain of Responsibility** com fluxo de atendimento do suporte técnico.
+- Encadeamento dinâmico de níveis de suporte técnico (Nível 1, Nível 2 e Nível 3)
+- Processamento condicional e delegação automática para o próximo nível
+- Tratamento uniforme e tratamento de falhas ao fim da cadeia de atendimento
+
 
 ## 📖 Sobre o Projeto
 
