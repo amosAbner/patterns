@@ -111,6 +111,12 @@ Implementação do padrão **Command** com sistema de automação residencial (S
 - Desacoplamento entre os botões disparadores (Invoker) e os aparelhos finais (Receiver)
 - Suporte a múltiplos comandos sequenciais e funcionalidade de desfazer (Undo)
 
+#### 🔄 **[iterator](file:///c:/Users/absouza/Documents/workspace/patterns/src/main/java/patterns/comportamentais/iterator)**
+Implementação do padrão **Iterator** com sistema de playlist de músicas.
+- Abstração da estrutura de dados da coleção de músicas da playlist
+- Iteradores especializados para navegação sequencial ou filtrada por gênero musical
+- Acesso uniforme aos dados sem expor detalhes internos da coleção
+
 
 ## 📖 Sobre o Projeto
 
