@@ -117,6 +117,12 @@ Implementação do padrão **Iterator** com sistema de playlist de músicas.
 - Iteradores especializados para navegação sequencial ou filtrada por gênero musical
 - Acesso uniforme aos dados sem expor detalhes internos da coleção
 
+#### 💬 **[mediator](file:///c:/Users/absouza/Documents/workspace/patterns/src/main/java/patterns/comportamentais/mediator)**
+Implementação do padrão **Mediator** com sala de chat e moderador.
+- Centralização da comunicação de usuários através do objeto mediador
+- Desacoplamento da comunicação direta do tipo N-para-N entre participantes
+- Encapsulamento de regras de negócio de mensagens em um único nó centralizador
+
 
 ## 📖 Sobre o Projeto
 
