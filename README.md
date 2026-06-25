@@ -129,6 +129,12 @@ Implementação do padrão **Observer** com sistema de canal de notícias (Newsl
 - Notificação push automática para múltiplos canais (E-mail e SMS)
 - Desacoplamento e fluxo unidirecional de dados reativos
 
+#### 🚦 **[state](file:///c:/Users/absouza/Documents/workspace/patterns/src/main/java/patterns/comportamentais/state)**
+Implementação do padrão **State** com reprodutor de música digital.
+- Delegação de comportamentos variantes de estado para classes de estado dedicadas
+- Eliminação de estruturas condicionais (if-else/switch) complexas no contexto do player
+- Transições de estado controladas de forma explícita e limpa
+
 
 ## 📖 Sobre o Projeto
 
