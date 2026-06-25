@@ -141,6 +141,12 @@ Implementação do padrão **Strategy** com calculadora de fretes de encomendas.
 - Troca dinâmica de estratégias matemáticas em tempo de execução
 - Desacoplamento e cumprimento dos princípios SOLID (SRP e OCP)
 
+#### 📝 **[templateMethod](file:///c:/Users/absouza/Documents/workspace/patterns/src/main/java/patterns/comportamentais/templateMethod)**
+Implementação do padrão **Template Method** com pipeline de processamento de pagamentos.
+- Definição do esqueleto do algoritmo de pagamento (Boleto, Cartão) em uma superclasse abstrata
+- Customização controlada de passos específicos e validações por subclasses concretas
+- Reuso máximo de código comum e ganchos (hooks) opcionais de ciclo de vida
+
 
 ## 📖 Sobre o Projeto
 
