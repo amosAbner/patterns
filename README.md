@@ -123,6 +123,12 @@ Implementação do padrão **Mediator** com sala de chat e moderador.
 - Desacoplamento da comunicação direta do tipo N-para-N entre participantes
 - Encapsulamento de regras de negócio de mensagens em um único nó centralizador
 
+#### 🔔 **[observer](file:///c:/Users/absouza/Documents/workspace/patterns/src/main/java/patterns/comportamentais/observer)**
+Implementação do padrão **Observer** com sistema de canal de notícias (Newsletter).
+- Mecanismo de assinatura dinâmica para interessados (Observers) em eventos do publicador (Subject)
+- Notificação push automática para múltiplos canais (E-mail e SMS)
+- Desacoplamento e fluxo unidirecional de dados reativos
+
 
 ## 📖 Sobre o Projeto
 
