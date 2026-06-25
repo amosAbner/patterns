@@ -135,6 +135,12 @@ Implementação do padrão **State** com reprodutor de música digital.
 - Eliminação de estruturas condicionais (if-else/switch) complexas no contexto do player
 - Transições de estado controladas de forma explícita e limpa
 
+#### 🎯 **[strategy](file:///c:/Users/absouza/Documents/workspace/patterns/src/main/java/patterns/comportamentais/strategy)**
+Implementação do padrão **Strategy** com calculadora de fretes de encomendas.
+- Encapsulamento de diferentes algoritmos de cálculo (Comum, Expresso, Grátis)
+- Troca dinâmica de estratégias matemáticas em tempo de execução
+- Desacoplamento e cumprimento dos princípios SOLID (SRP e OCP)
+
 
 ## 📖 Sobre o Projeto
 
